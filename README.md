@@ -106,7 +106,7 @@ sudo dnf install httpd php php-sqlite3 sqlite composer # или yum
     'from_email' => 'noreply@example.com',
     'from_name' => 'Collection App',
     'site_url' => 'http://collection-app.local'
-    ]
+]
     ```
 ### Запуск приложения
 
