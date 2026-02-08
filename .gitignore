@@ -1,0 +1,35 @@
+# Composer
+/vendor/
+composer.lock
+
+# PHP
+.phpunit.result.cache
+
+# Logs
+/logs/emails/*
+!/logs/emails/.gitkeep
+
+# Uploads
+/public/uploads/avatars/*
+/public/uploads/banknotes/*
+/public/uploads/coins/*
+/public/uploads/postcards/*
+/public/uploads/stamps/*
+!/public/uploads/**/*.gitkeep
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database
+/database/*.sqlite
+
+# Examples and Documentation (per user instruction)
+/StellarControl/
+/Documentation/
